@@ -1169,9 +1169,9 @@
 				TargetAttributes = {
 					B627CB061D83C87B0057173E = {
 						CreatedOnToolsVersion = 8.0;
-						DevelopmentTeam = UTQFCBPQRF;
+						DevelopmentTeam = 5762VEA4LK;
 						LastSwiftMigration = 0900;
-						ProvisioningStyle = Manual;
+						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
 							com.apple.ApplicationGroups.iOS = {
 								enabled = 1;
@@ -1183,8 +1183,9 @@
 					};
 					B657A8E51CA646EB00121384 = {
 						CreatedOnToolsVersion = 7.3;
-						DevelopmentTeam = UTQFCBPQRF;
+						DevelopmentTeam = 5762VEA4LK;
 						LastSwiftMigration = 0900;
+						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
 							com.apple.ApplicationGroups.iOS = {
 								enabled = 1;
@@ -1220,9 +1221,9 @@
 					};
 					B678DB231EA991E30045312F = {
 						CreatedOnToolsVersion = 8.3.1;
-						DevelopmentTeam = UTQFCBPQRF;
+						DevelopmentTeam = 5762VEA4LK;
 						LastSwiftMigration = 0900;
-						ProvisioningStyle = Manual;
+						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
 							com.apple.Keychain = {
 								enabled = 1;
@@ -1231,9 +1232,9 @@
 					};
 					B6AAD7A01D827DD40090B220 = {
 						CreatedOnToolsVersion = 8.0;
-						DevelopmentTeam = UTQFCBPQRF;
+						DevelopmentTeam = 5762VEA4LK;
 						LastSwiftMigration = 0900;
-						ProvisioningStyle = Manual;
+						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
 							com.apple.ApplicationGroups.iOS = {
 								enabled = 1;
@@ -1977,15 +1978,17 @@
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CODE_SIGN_ENTITLEMENTS = NotificationContentExtension/NotificationContentExtension.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
 				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEVELOPMENT_TEAM = UTQFCBPQRF;
+				DEVELOPMENT_TEAM = 5762VEA4LK;
 				INFOPLIST_FILE = NotificationContentExtension/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "io.robbie.HomeAssistant${BUNDLE_ID_PREFIX}.NotificationContentExtension";
+				PRODUCT_BUNDLE_IDENTIFIER = io.robbie.HomeAssistant.dev.bjornorri.NotificationContentExtension;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "e48106c2-b3be-4e6c-b110-8ebaeb5311b9";
-				PROVISIONING_PROFILE_SPECIFIER = "match Development io.robbie.HomeAssistant.dev.NotificationContentExtension";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_SWIFT3_OBJC_INFERENCE = Off;
@@ -2000,14 +2003,16 @@
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CODE_SIGN_ENTITLEMENTS = NotificationContentExtension/NotificationContentExtension.entitlements;
-				DEVELOPMENT_TEAM = UTQFCBPQRF;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5762VEA4LK;
 				INFOPLIST_FILE = NotificationContentExtension/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "io.robbie.HomeAssistant${BUNDLE_ID_PREFIX}.NotificationContentExtension";
+				PRODUCT_BUNDLE_IDENTIFIER = io.robbie.HomeAssistant.dev.bjornorri.NotificationContentExtension;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "d0156c6f-eacf-42db-b8c9-f93edcb6669d";
-				PROVISIONING_PROFILE_SPECIFIER = "match AppStore io.robbie.HomeAssistant.NotificationContentExtension";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
 				SWIFT_SWIFT3_OBJC_INFERENCE = Off;
 				SWIFT_VERSION = 4.0;
@@ -2138,7 +2143,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon${BUNDLE_ID_PREFIX}";
 				CODE_SIGN_ENTITLEMENTS = HomeAssistant/Resources/HomeAssistant.entitlements;
-				DEVELOPMENT_TEAM = UTQFCBPQRF;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5762VEA4LK;
 				INFOPLIST_FILE = HomeAssistant/Resources/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				IS_SANDBOXED = true;
@@ -2172,9 +2179,10 @@
 					"\"UIKit\"",
 					"$(inherited)",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.robbie.HomeAssistant.dev.bjornorri;
 				PRODUCT_NAME = "Home Assistant";
-				PROVISIONING_PROFILE = "0e23e0e0-51be-4afd-8f10-d4659e3af88e";
-				PROVISIONING_PROFILE_SPECIFIER = "match Development io.robbie.HomeAssistant.dev";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "HomeAssistant/HomeAssistant-Bridging-Header.h";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Off;
 				SWIFT_VERSION = 4.0;
@@ -2188,7 +2196,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon${BUNDLE_ID_PREFIX}";
 				CODE_SIGN_ENTITLEMENTS = HomeAssistant/Resources/HomeAssistant.entitlements;
-				DEVELOPMENT_TEAM = UTQFCBPQRF;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5762VEA4LK;
 				INFOPLIST_FILE = HomeAssistant/Resources/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				IS_SANDBOXED = false;
@@ -2222,9 +2232,10 @@
 					"\"UIKit\"",
 					"$(inherited)",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.robbie.HomeAssistant.dev.bjornorri;
 				PRODUCT_NAME = "Home Assistant";
-				PROVISIONING_PROFILE = "3875637c-d045-4a07-879a-cf393f6a9f3e";
-				PROVISIONING_PROFILE_SPECIFIER = "match AppStore io.robbie.HomeAssistant";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "HomeAssistant/HomeAssistant-Bridging-Header.h";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Off;
 				SWIFT_VERSION = 4.0;
@@ -2296,15 +2307,16 @@
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CODE_SIGN_ENTITLEMENTS = MapNotificationContentExtension/MapNotificationContentExtension.entitlements;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
 				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEVELOPMENT_TEAM = UTQFCBPQRF;
+				DEVELOPMENT_TEAM = 5762VEA4LK;
 				INFOPLIST_FILE = MapNotificationContentExtension/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "io.robbie.HomeAssistant${BUNDLE_ID_PREFIX}.MapNotificationContentExtension";
+				PRODUCT_BUNDLE_IDENTIFIER = io.robbie.HomeAssistant.dev.bjornorri.MapNotificationContentExtension;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "6a71f7b7-c2b5-41ab-800f-5c9b31c163f6";
-				PROVISIONING_PROFILE_SPECIFIER = "match Development io.robbie.HomeAssistant.dev.MapNotificationContentExtension";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_SWIFT3_OBJC_INFERENCE = Off;
@@ -2319,15 +2331,16 @@
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CODE_SIGN_ENTITLEMENTS = MapNotificationContentExtension/MapNotificationContentExtension.entitlements;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
-				DEVELOPMENT_TEAM = UTQFCBPQRF;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5762VEA4LK;
 				INFOPLIST_FILE = MapNotificationContentExtension/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "io.robbie.HomeAssistant${BUNDLE_ID_PREFIX}.MapNotificationContentExtension";
+				PRODUCT_BUNDLE_IDENTIFIER = io.robbie.HomeAssistant.dev.bjornorri.MapNotificationContentExtension;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "92f53f1e-23d3-48c4-ad03-f6e8753dff00";
-				PROVISIONING_PROFILE_SPECIFIER = "match AppStore io.robbie.HomeAssistant.MapNotificationContentExtension";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
 				SWIFT_SWIFT3_OBJC_INFERENCE = Off;
 				SWIFT_VERSION = 4.0;
@@ -2341,14 +2354,16 @@
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CODE_SIGN_ENTITLEMENTS = APNSAttachmentService/APNSAttachmentService.entitlements;
-				DEVELOPMENT_TEAM = UTQFCBPQRF;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5762VEA4LK;
 				INFOPLIST_FILE = APNSAttachmentService/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "io.robbie.HomeAssistant${BUNDLE_ID_PREFIX}.APNSAttachmentService";
+				PRODUCT_BUNDLE_IDENTIFIER = io.robbie.HomeAssistant.dev.bjornorri.APNSAttachmentService;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "0b655323-4934-45a1-8a49-2bd7225bd21a";
-				PROVISIONING_PROFILE_SPECIFIER = "match Development io.robbie.HomeAssistant.dev.APNSAttachmentService";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_SWIFT3_OBJC_INFERENCE = Off;
@@ -2363,14 +2378,16 @@
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CODE_SIGN_ENTITLEMENTS = APNSAttachmentService/APNSAttachmentService.entitlements;
-				DEVELOPMENT_TEAM = UTQFCBPQRF;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5762VEA4LK;
 				INFOPLIST_FILE = APNSAttachmentService/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "io.robbie.HomeAssistant${BUNDLE_ID_PREFIX}.APNSAttachmentService";
+				PRODUCT_BUNDLE_IDENTIFIER = io.robbie.HomeAssistant.dev.bjornorri.APNSAttachmentService;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "ecd7ec27-dac3-4f9b-8bb2-a625d426411c";
-				PROVISIONING_PROFILE_SPECIFIER = "match AppStore io.robbie.HomeAssistant.APNSAttachmentService";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
 				SWIFT_SWIFT3_OBJC_INFERENCE = Off;
 				SWIFT_VERSION = 4.0;
