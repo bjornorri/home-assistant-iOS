@@ -81,6 +81,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         prefs.synchronize()
 
         registerForSignificantLocationUpdates()
+        HealthKitManager.authorizeHealthKit(completion: { success, _ in
+            if success {
+                print("Successfully authorized HealthKit")
+                HealthKitManager.setup()
+            }
+        })
 
         window = UIWindow.init(frame: UIScreen.main.bounds)
         window?.backgroundColor = .white
